@@ -1,0 +1,121 @@
+c ======================================================
+c countAntom, Jan Burchard, University of Freiburg, 2015
+c   based on the antom SAT-solver, by Tobias Schubert   
+c ======================================================
+c cnf file...............: ../../501_Git_Repos/busybox-data/data//busybox//2009/2009-03-30_06-50-54/clean.dimacs
+c #variables.............: 743
+c #clauses...............: 617
+c ======================= Settings ============================
+c number of threads......: 4
+c memory size............: 4000
+c vsads factor...........: 0.5000
+c enable IBCP............: no
+c split into components..: yes
+c only preprocessing.....: no
+c Tseitin detection......: yes
+c UPLA...................: yes
+c self-subsumption.......: yes
+c variable elimination...: yes
+c simplfication rounds...: 4
+c add dependencies.......: yes
+c ==================Start Preprocessing========================
+c deduce added 				8 new implications
+c UPLA removed 12 equivalent variables
+c Tseitin detection found 4 AND gates, 4 OR gates, 0 XOR gates, 0 EQUIV gates, 
+c subsumption removed 			31 clauses 
+c selfSubsumption removed 		2 literals
+c
+c simplify: round 0
+c deduce added 				0 new implications
+c variableElimination eliminated 	103 variables!
+c selfSubsumption removed 		0 literals
+c deduce added				0 new implications
+c subsumption removed 			5 clauses 
+c
+c simplify: round 1
+c deduce added 				0 new implications
+c variableElimination eliminated 	0 variables!
+c selfSubsumption removed 		0 literals
+c deduce added				0 new implications
+c subsumption removed 			0 clauses 
+c
+c simplify: round 2
+c deduce added 				0 new implications
+c variableElimination eliminated 	0 variables!
+c selfSubsumption removed 		0 literals
+c deduce added				0 new implications
+c subsumption removed 			0 clauses 
+c
+c simplify: round 3
+c deduce added 				0 new implications
+c variableElimination eliminated 	0 variables!
+c selfSubsumption removed 		0 literals
+c deduce added				0 new implications
+c subsumption removed 			0 clauses 
+c subsumption removed 			5 clauses 
+c ================Preprocessing Finished=======================
+c clauses: 575, variables: 546
+
+
+c =================Computation Finished========================
+c =======================Thread 0==============================
+c decisions         : 109
+c bcps              : 833
+c conflicts         : 0
+c aborted components: 0
+c blocks            : 1
+c backtracks        : 218
+c backtrack dist    : 1.9771
+c recomputations    : 0
+c splits            : 134
+c split ratio       : 3.6716
+c =======================Thread 1==============================
+c decisions         : 93
+c bcps              : 700
+c conflicts         : 0
+c aborted components: 0
+c blocks            : 4
+c backtracks        : 186
+c backtrack dist    : 2.0430
+c recomputations    : 0
+c splits            : 102
+c split ratio       : 2.9608
+c =======================Thread 2==============================
+c decisions         : 72
+c bcps              : 576
+c conflicts         : 0
+c aborted components: 0
+c blocks            : 5
+c backtracks        : 144
+c backtrack dist    : 2.0208
+c recomputations    : 0
+c splits            : 85
+c split ratio       : 2.9059
+c =======================Thread 3==============================
+c decisions         : 98
+c bcps              : 717
+c conflicts         : 0
+c aborted components: 0
+c blocks            : 7
+c backtracks        : 196
+c backtrack dist    : 2.0255
+c recomputations    : 0
+c splits            : 66
+c split ratio       : 4.0606
+c ===================Cache Statistics==========================
+c tries..................: 953
+c hits...................: 581
+c hit rate...............: 60.9654 % 
+c removed items..........: 0
+c ===================Overall Statistics========================
+c TOTAL backtracks.......: 744
+c TOTAL backtrack dist...: 2.0148
+c TOTAL recomputations...: 0
+c #decisions.............: 372
+c #bcp operations........: 2826
+c split ratio............: 0.0000
+c cpu time...............: 0.0170 s
+c wall clock time........: 0.0123 s
+c =========================================================
+c model count............: 7731663594366099064343713562513495620341601038307888043623626448474411863627221416768306567338066154953594684591591757578247528543303611693517494386622502419824640000000000000000000
+s SATISFIABLE

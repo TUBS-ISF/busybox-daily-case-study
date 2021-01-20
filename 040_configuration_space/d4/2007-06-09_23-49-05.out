@@ -1,0 +1,16 @@
+c WARNING: for repeatability, setting FPU to use double precision
+c Problem Statistics:
+c
+c [33mBenchmark Information[0m
+c Number of variables: 579
+c Number of clauses: 463
+c Number of literals: 1022
+c Parse time: 0.00
+c
+c [33md-DNNF Information[0m
+c Number of nodes: 247
+c Number of edges: 590
+c 
+c Final time: 0.011707
+c 
+s 452605299499995549504912498673094984584058892766635752709671647082767090345972733948183605396392785611660237575162764252511259852800000000000000
