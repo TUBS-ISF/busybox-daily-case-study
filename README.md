@@ -48,5 +48,5 @@ Results of analyzing the differences in clause sizes between consecutive variabi
 ## Licensing
 The source code in this repository is licensed under the [GNU General Public License v3.0](/LICENSE). The data files contained in this repository are licensed under the [CC-BY-4.0](/cc-by-4.0.md). You are free to use, share, and adapt the data and source code in this repository as long as you give appropriate credit to the data owner.
 
-## Disclaimer
+## Note
 This repository is under constant development and changes frequently. If you encounter any challenges using the content or identify missing or broken content, please reach out to us via e-mail at [t.pett@tu-braunschweig.de].
